@@ -14,7 +14,9 @@ export default async function handler(request, response) {
   );
 
   if (!apiDataFetch.ok) {
-    response.status(404);
+    response.status(404).json({
+      error: true
+    });
   }
 
   const apiData = await apiDataFetch.json();
