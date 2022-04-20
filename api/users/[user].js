@@ -2,7 +2,7 @@ import fetch from "cross-fetch";
 
 export default async function handler(request, response) {
   // The user
-  const { user } = request.query;
+  const { user } = request.query.user;
 
   const messageCount = await (
     await (
