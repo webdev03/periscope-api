@@ -2,8 +2,7 @@ import fetch from "cross-fetch";
 
 export default async function handler(request, response) {
   // The user
-  const { user } = request.query.user;
-console.log(request.query)
+  const { user } = request.query;
   const messageCount = await (
     await (
       await fetch(`https://api.scratch.mit.edu/users/${user}/messages/count`, {
