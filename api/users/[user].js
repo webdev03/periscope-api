@@ -5,7 +5,7 @@ export default async function handler(request, response) {
   const { user } = request.query;
 
   const apiDataFetch = await fetch(
-    `https://api.scratch.mit.edu/users/${user}/messages/count`,
+    `https://api.scratch.mit.edu/users/${user}/`,
     {
       headers: {
         "User-Agent": "Mozilla/5.0",
