@@ -33,6 +33,7 @@ export default async function handler(request, response) {
     id: apiData.id,
     username: apiData.username,
     scratchteam: apiData.scratchteam,
+    history: apiData.history,
     profile: apiData.profile,
     messages: messageCount,
   });
