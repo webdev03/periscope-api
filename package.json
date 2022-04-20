@@ -1,0 +1,22 @@
+{
+  "name": "periscope-api",
+  "version": "0.0.1",
+  "description": "Note: I did not make Periscope. @ILOVETOMAKESTUFF on github made it. This is just the API/proxy for periscope.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webdev03/periscope-api.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webdev03/periscope-api/issues"
+  },
+  "homepage": "https://github.com/webdev03/periscope-api#readme",
+  "dependencies": {
+    "cross-fetch": "^3.1.5"
+  }
+}
