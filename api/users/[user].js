@@ -8,7 +8,7 @@ export default async function handler(request, response) {
     `https://api.scratch.mit.edu/users/${user}/`,
     {
       headers: {
-        "User-Agent": "Mozilla/5.0",
+        "User-Agent": "Mozilla/5.0 Periscope",
       },
     }
   );
